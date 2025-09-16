@@ -1,0 +1,239 @@
+# Django
+*.pyc
+*__pycache__/
+*.pyo
+*.pyd
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.coverage
+.coverage.*
+cover/
+*.mo
+*.pot
+
+# Database
+*.sqlite3
+*.db
+*.sql
+*.sql.gz
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+python_env/
+
+# Django migrations (optional - sometimes you want to keep them)
+# !/car_comments/migrations/
+# /car_comments/migrations/*
+# !/car_comments/migrations/__init__.py
+
+# Static files
+/staticfiles/
+/mediafiles/
+/static/
+/media/
+
+# Logs
+*.log
+logs/
+log/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-data/
+
+# Backup files
+*.backup
+*.bak
+
+# Testing
+/test_results/
+/unit_test_results/
+
+# Build artifacts
+/build/
+/dist/
+/*.egg-info/
+/.eggs/
+/eggs/
+/parts/
+/.installed.cfg
+/*.egg
+
+# Documentation
+/docs/_build/
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Virtual environment
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# PostgreSQL
+/pgdata/
+
+# Docker compose
+docker-compose.*.yml
+
+# Backup files from editors
+*~
+*.tmp
+*.temp
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+[Tt]humbs.db
+[Tt]humbs.db:encryptable
+ehthumbs.db
+[Dd]esktop.ini
+
+# Linux
+*~
+
+# Node.js (if you have frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Database backups (keep structure but not data dumps)
+/backups/*.sql.gz
+/backups/*.bak
+!/backups/empty.txt
+
+# Docker compose build cache
+.cache/
+
+# Temporary files
+tmp/
+temp/
