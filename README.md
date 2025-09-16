@@ -15,6 +15,11 @@
     7. drf-spectacular - для автодокументации Swager
     8. postman
 
+# Документация API
+
+Автодокументация API доступна по пути:  
+[http://localhost:8000/api/docs/](http://localhost:8000/api/docs/)
+    
 # Запуск проекта
 
 1. Создать файл .env в корне проекта из файла .env.example
