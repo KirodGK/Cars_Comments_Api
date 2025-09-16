@@ -19,7 +19,7 @@
 
 Автодокументация API доступна по пути:  
 [http://localhost:8000/api/docs/](http://localhost:8000/api/docs/)
-    
+
 # Запуск проекта
 
 1. Создать файл .env в корне проекта из файла .env.example
@@ -41,3 +41,8 @@ docker compose web exec bash
 ```bash
 python car_comments/manage.py createsuperuser
 ```
+
+# Автор
+
+[Телеграмм](t.me/KirodGK_2_0)
+[Email](KirodGK@gmail.com)

@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
 from .models import Car, Comment, Country, Manufacturer
-from .permissions import PostGetForAllOthersForUserOrAdmin
+from .permissions import GetOrPostUser
 from .serializers import (
     CarSerializer,
     CommentSerializer,
@@ -72,7 +72,7 @@ class CarViewSet(ModelViewSet):
 class CommentViewSet(ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
-    permission_classes = [PostGetForAllOthersForUserOrAdmin]
+    permission_classes = [GetOrPostUser]
 
 
 class ExportView(APIView):
