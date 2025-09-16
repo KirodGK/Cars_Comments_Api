@@ -44,5 +44,5 @@ python car_comments/manage.py createsuperuser
 
 # Автор
 
-[Телеграмм](t.me/KirodGK_2_0)
-[Email](KirodGK@gmail.com)
+**Телеграм**: [@KirodGK_2_0](https://t.me/KirodGK_2_0)  
+**Email**: [KirodGK@gmail.com](mailto:KirodGK@gmail.com)
